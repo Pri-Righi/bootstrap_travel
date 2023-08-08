@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #157368;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #157368;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-tours .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #93cfd1;
+}
+
+header .section-title {
+    font-size: 36px;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-destinos, #tours {
+    background-color: #93cfd1;
+}
+
+.text-colored {
+    color: #157368;
+}
+
+.nav-tours .nav-link.active,
+#fale-conosco button {
+    background-color: #157368;
+    color: #fff;
+}
+
+.nav-tours .nav-link:hover {
+    color: #157368;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

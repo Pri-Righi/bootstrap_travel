@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Intro Travel Tours</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-destinos" class="nav-link">
+                            <i class="bi bi-airplane me-1"></i>
+                            Destinos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#pacotes" class="nav-link">
+                            <i class="bi bi-card-list me-1"></i>
+                            Pacotes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#tours" class="nav-link">
+                            <i class="bi bi-collection me-1"></i>
+                            Tours
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-destinos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/bora.jpg" class="w-100" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/dubai.jpg" class="w-100" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/vietna.jpg" class="w-100" />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/suica.jpg" class="w-100" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/vacation.jpg" class="d-block w-100 rounded" />
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Nossos <span class="text-colored">destinos</span></h2>
+                            <p>
+                                Trabalhamos com os mais variados tipos de destinos de sua preferência! Seja nas praias de água cristalina ou em regiões montanhosas cobertas de neve, nossos pacotes turísticos irão te surpreender!<br>
+                                Entre os lugares mais procurados em nossa agência, estão Bora Bora na, belíssima, Polinésia Francesa e os grandiosos Alpes Suíços e suas estações de esqui.<br>
+                                Para aqueles que buscam aventura em cenários inustitados, oferecemos o famoso safari no deserto de Dubai e os fabulosos templos Vietnamitas!
+                                <br>
+                                <br>
+                                E muito mais!!
+                                <br>
+                                <br>
+                                <h3 class="section-title">Venham <span class="text-colored">conferir!</span></h3>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pacotes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Mais <span class="text-colored">procurados</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/pacote/poli.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-emoji-heart-eyes"></i>
+                            Bora Bora - 8 dias e 7 noites
+                        </h3>
+                        <p>
+                            Bora Bora é a mais famosa das mais de 100 ilhas da Polinésia. Ela está cercada por recifes de corais e ilhotas, que formam ao seu redor uma lagoa de água salgada. Dentro dela, o mar é calmo, transparente e exibe uma paleta de cores que vai do verde irreal ao azul inacreditável.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/pacote/desert.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-emoji-heart-eyes"></i>
+                            Dubai city com jantar no Deserto
+                        </h3>
+                        <p>
+                            O Deserto de Dubai faz parte do Deserto Arábico e atrai todos os dias viajantes em busca de novas paisagens e experiências. Se deparar com as dunas alaranjadas ao pôr do sol é realmente uma sensação maravilhosa. Há várias maneiras de visitar o deserto e cada uma delas reserva uma nova surpresa.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/pacote/temple.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-emoji-heart-eyes"></i>
+                            Vietnã - Ha Long Bay e Templos
+                        </h3>
+                        <p>
+                            Halong Bay possui quase duas mil ilhas formadas de calcário há milhões de anos atrás. Cercadas por uma mata tropical, suas águas são de um verde-esmeralda profundo. É patrimônio mundial da UNESCO devido à sua riqueza e importância.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tours" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">tours</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-tours">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#suica" class="fw-bold text-start nav-link text-colored active">Suíça</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#dubai" class="fw-bold text-start nav-link text-colored">Dubai</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#vietna" class="fw-bold text-start nav-link text-colored">Vietnã</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#australia" class="fw-bold text-start nav-link text-colored">Austrália</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#tailandia" class="fw-bold text-start nav-link text-colored">Tailândia</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="suica">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/suiss (1).jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Alpes Suíços</h5>
+                                        <p>
+                                            Conheça as mais belas regiões montanhosas da Suíça e aprenda a esquiar nas várias estações de esqui
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/suiss.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Zurique</h5>
+                                        <p>
+                                            Roteiros de 2, 3, 5 e 7 dias na cidade
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="dubai">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/dubai (1).jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Souk Madinah</h5>
+                                        <p>
+                                            Visite o mais belo mercado de Dubai e aproveite a vista para o icônico Burj Al Arab
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/dubai (2).jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">A Grande Mesquita</h5>
+                                        <p>
+                                            Conheça a incrível e deslumbrante Mesquita Sheikh Zayed em Abu Dhabi
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/dubai.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Deserto</h5>
+                                        <p>
+                                            Faça um safari no meio do maior deserto do mundo e e celebre com um jantar bem típico
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="vietna">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/longbay.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">1 noite em Ha Long Bay</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/pagoda.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Dia completo nos templos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/hoian.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Hoian - a cidade anciã</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="australia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/great.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Great Ocean Road</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/sydney.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Roteiros de até 7 dias em Sydney</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tailandia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/tour/tai.jpg" />
+                                        <h5 class="text-colored fw-bold mt-2">Phi Phi Island</h5>
+                                        <p>
+                                            Hospede-se nesta ilha mágica e aproveite nossos passeios de barco diários
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Phan Chu Trinh, Huê - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
